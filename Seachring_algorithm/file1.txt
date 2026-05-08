@@ -1,0 +1,1 @@
+Algorithm is a set of ordered instruction which are written in simple english language.
