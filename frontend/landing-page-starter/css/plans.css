@@ -1,0 +1,74 @@
+.planSection{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+       align-items: center;
+    justify-content: space-around;
+    gap: 55px;
+}
+.plantext{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.cardSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+ 
+}
+.card{
+    width: 25%;
+    height: 450px;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    color: white;
+      display: flex;
+    flex-direction: column;
+       align-items: center;
+    justify-content: space-around;
+}
+.card:hover{
+    scale: 1.04;
+    transition: all 0.4s ease;
+}
+.card img{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+
+.card p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.card h2 {
+  width: 95%;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: gainsboro;
+  text-align: center;
+  line-height: 25px;
+}
+
+.card button {
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px 0;
+  width: 70%;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.card button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.4s ease;
+}
